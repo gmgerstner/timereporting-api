@@ -11,7 +11,14 @@ This code is written in C# and SQL with Visual Studio.
 
 ## Installation
 
+### User Interface
+
 - First set up the UI in ISS (see https://github.com/gmgerstner/timereporting-ui)
+
+### Database
+
+### API Code
+
 - Create a folder for the API code. Recommended: Call it something similar to the UI's folder with _api appended.
 - In IIS, right-click the site for the UI and select Add Application.
 - Enter the following:
