@@ -17,4 +17,7 @@ This code is written in C# and SQL with Visual Studio.
 - Enter the following:
   - Alias: api
   - Physical path to where the .NET code will be installed.
+- Update path in the file: timereporting-api\GMG.TimeReporting.WebApi\Properties\PublishProfiles\FolderProfile.pubxml
 - Deploy the built code to the api folder.
+	- Right-click the GMG.TimeReporting.WebApi project and select Publish
+	- Click the Publish button
