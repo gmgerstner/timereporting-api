@@ -26,6 +26,7 @@ This code is written in C# and SQL with Visual Studio.
 - Click Publish
 - Give permission to the Application Pool to read and write to the database
 - Add the neccesary entry to the security application for logging in (steps not included here)
+- Populate a few common tasks in the CommonTasks table
 
 ### API Code
 
