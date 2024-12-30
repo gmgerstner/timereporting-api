@@ -17,6 +17,16 @@ This code is written in C# and SQL with Visual Studio.
 
 ### Database
 
+- Make sure the database server has the database called TimeReporting
+- Right-click the project GMG.TimeReporting.Database
+- Select Publish and check the fields:
+  - Target database
+  - Database name
+  - Publish script name
+- Click Publish
+- Give permission to the Application Pool to read and write to the database
+- Add the neccesary entry to the security application for logging in (steps not included here)
+
 ### API Code
 
 - Create a folder for the API code. Recommended: Call it something similar to the UI's folder with _api appended.
