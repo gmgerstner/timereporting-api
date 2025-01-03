@@ -24,7 +24,7 @@ This code is written in C# and SQL with Visual Studio.
   - Database name
   - Publish script name
 - Click Publish
-- Give permission to the Application Pool to read and write to the database
+- Give permission to the Application Pool to read and write to the database. Don't forget that the Application Pool also must be granted EXECUTE permission to the stored procedures.
 - Add the neccesary entry to the security application for logging in (steps not included here)
 - Populate a few common tasks in the CommonTasks table
 
